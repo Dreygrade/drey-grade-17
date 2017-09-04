@@ -40,6 +40,45 @@ License: http://creativecommons.org/licenses/MIT
 <link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css">
 <link rel="stylesheet" href="css/stylerain.css">
 
+<!-- JavaScript -->
+<script src="js/libs/modernizr-2.0.6.min.js"></script>
+
+<!-- JavaScript for Canvas use-->
+<script type="text/javascript">
+function draw(){
+var canvas = document.getElementById ('myCanvas');
+if (canvas.getContext){
+var ctx = canvas.getContext('2d');
+}
+
+if (canvas.getContext){
+var myRectangle = canvas.getContext('2d');
+myRectangle.fillRect(15,15,100,100);
+myRectangle.clearRect(20,20,60,60);
+myRectangle.strokeRect(25,25,50,50);
+}
+}
+
+function draw2(){
+var canvas = document.getElementById ('myCanvas2');
+if (canvas.getContext){
+var ctx = canvas.getContext('2d');
+}
+
+if (canvas.getContext){
+var myRectangle = canvas.getContext('2d');
+myRectangle.fillRect(15,15,100,100);
+myRectangle.clearRect(20,20,60,60);
+myRectangle.strokeRect(25,25,40,40);
+}
+}
+
+</script>
+<!-- End of JavaScript for Canvas use-->
+<style type="text/css">
+canvas { border: 1px solid black; }
+</style>
+
 
 
 
@@ -85,15 +124,20 @@ License: http://creativecommons.org/licenses/MIT
 
 <header>
 <br>
-<h3>dreygrade.co.uk</h3>
+<h3>drey grade</h3>
 </header>
 
 
 <!--<br><br><br><br>-->
 <div class="container">
 	<div class="rain">
-	<p class="text1">Field recording of an electrical storm. August 2017 release.</p>
+	<p class="august">Field recording of an electrical storm. August 2017 release.</p>
+	<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=642995860/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://dreygrade.bandcamp.com/track/summer-storm">Summer Storm by Drey Grade</a></iframe>
+	<p class="text2"><a href="releases.html">Rel.</a></p>
 	</div> 
+
+<p class="september">SSEYO. September 2017 release.</p>
+	<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=642995860/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://dreygrade.bandcamp.com/track/summer-storm">Summer Storm by Drey Grade</a></iframe>
 </div>
 
 <!--<ul id="nav">
